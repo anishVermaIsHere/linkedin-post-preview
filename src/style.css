@@ -1,0 +1,17 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.preview-desktop {
+  @apply w-full;
+}
+.preview-mobile {
+  @apply sm:w-[360px];
+}
+.preview-tablet {
+  @apply w-full sm:w-[468px] lg:w-[568px];
+}
